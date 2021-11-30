@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'kmalyalaCertificateTest'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EBE0B41FE4FD47BC92EC4414883577E1 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AF0FDCAD854D4E31BE80D16F07F6CB8D }}
           package: '*.jar'
